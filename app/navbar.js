@@ -2,7 +2,8 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaLeaf, FaUser, FaUserMd, FaSignInAlt } from 'react-icons/fa';
+import { FaLeaf, FaUser, FaUserMd, FaSignInAlt, } from 'react-icons/fa';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,6 +80,13 @@ const Navbar = () => {
               >
                 <FaUserMd className="mr-2" />
                 Practitioner Login
+              </Link>
+              <Link 
+                href="/AdminFrontend/auth/signup" 
+                className="flex items-center px-4 py-2 rounded-md text-sm font-medium bg-blue-600 hover:bg-blue-700 transition-colors duration-200 text-white"
+              >
+                <FaUser className="mr-2" />
+                Admin Login
               </Link>
             </div>
           </div>

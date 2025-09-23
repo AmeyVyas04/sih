@@ -62,7 +62,7 @@ const generateGeminiResponse = async (userMessage) => {
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `You are an expert in ayurveda. Provide helpful information about: ${userMessage} in minimum possible words and in simple language `
+              text: `You are an expert in ayurveda. Provide helpful information about: ${userMessage} in minimum possible words and in simple language also do not provide * like symbols `
             }]
           }]
         })
@@ -552,7 +552,7 @@ const getFallbackResponse = (userMessage) => {
                   onChange={(e) => setInputMessage(e.target.value)}
                   onKeyPress={handleKeyPress}
                   placeholder="Ask about Panchakarma treatments..."
-                  className="flex-1 border text-black border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-sm"
+                  className="flex-1 border text-black text-blackgit border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-sm"
                   disabled={isLoading}
                 />
                 <button 
