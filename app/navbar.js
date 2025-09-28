@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'About', href: '/mainnavbarcomp/about' },
     { name: 'Services', href: '/services' },
     { name: 'Therapies', href: '/therapies' },
     { name: 'Testimonials', href: '/testimonials' },

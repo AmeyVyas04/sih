@@ -150,9 +150,9 @@ const PatientNavbar = () => {
   const navItems = [
     { name: 'Dashboard', href: '/patientdashboard/homepage', icon: <FaHome className="mr-2" /> },
     { name: 'Schedule Therapy', href: '/patientdashboard/navcomp/therapyscheduling', icon: <FaCalendarAlt className="mr-2" /> },
-    { name: 'My Therapies', href: '/patient/therapies', icon: <FaNotesMedical className="mr-2" /> },
-    { name: 'Health Records', href: '/patient/records', icon: <FaFileMedical className="mr-2" /> },
-    { name: 'Contact Us', href: '/patient/contact', icon: <FaEnvelope className="mr-2" /> },
+    { name: 'My Therapies', href: '/patientdashboard/navcomp/mytherapies', icon: <FaNotesMedical className="mr-2" /> },
+    { name: 'Health Records', href: '/patientdashboard/navcomp/healthrecord', icon: <FaFileMedical className="mr-2" /> },
+    { name: 'Contact Us', href: '/patientdashboard/navcomp/contactus', icon: <FaEnvelope className="mr-2" /> },
     { name: 'Feedback', href: '/patientdashboard/navcomp/feedback', icon: <FaCommentDots className="mr-2" /> },
   ];
 
