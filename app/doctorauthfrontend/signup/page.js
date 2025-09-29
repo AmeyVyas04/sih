@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";  // ✅ correct
-
+import {FaSignInAlt} from 'react-icons/fa';
 
 export default function DoctorRegistration() {
   const [step, setStep] = useState(1);
@@ -845,6 +845,15 @@ export default function DoctorRegistration() {
                     Submit
                 </button>
                 </div>
+                <div className="text-center pt-4">
+                              <p className="text-gray-600">
+                                Already have an account?{' '}
+                                <a href="/doctorauthfrontend/login" className="text-emerald-600 hover:text-emerald-700 font-semibold hover:underline flex items-center justify-center">
+                                  <FaSignInAlt className="mr-1" />
+                                  Sign In
+                                </a>
+                              </p>
+                            </div>
             </div>
             )}
 

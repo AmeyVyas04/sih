@@ -125,25 +125,25 @@ const DoctorNavbar = () => {
                   <FaHome className="mr-2" /> Dashboard
                 </Link>
                 <Link
-                  href="/doctor/schedule"
+                  href="/doctordashboard/navcomponents/schedule"
                   className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors"
                 >
                   <FaCalendarAlt className="mr-2" /> Schedule
                 </Link>
                 <Link
-                  href="/doctor/patients"
+                  href="/doctordashboard/navcomponents"
                   className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors"
                 >
                   <FaUsers className="mr-2" /> Patients
                 </Link>
                 <Link
-                  href="/doctor/analytics"
+                  href="/doctordashboard/navcomponents/analysis"
                   className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors"
                 >
                   <FaChartLine className="mr-2" /> Analytics
                 </Link>
                 <Link
-                  href="/doctor/therapies"
+                  href="/doctordashboard/navcomponents/therapies"
                   className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors"
                 >
                   <FaStethoscope className="mr-2" /> Therapies

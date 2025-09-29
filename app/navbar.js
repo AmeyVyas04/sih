@@ -75,7 +75,7 @@ const Navbar = () => {
                 Patient Login
               </Link>
               <Link 
-                href="/doctorauthfrontend/signup" 
+                href="/doctorauthfrontend/login" 
                 className="flex items-center px-4 py-2 rounded-md text-sm font-medium bg-emerald-600 hover:bg-emerald-700 transition-colors duration-200 text-white"
               >
                 <FaUserMd className="mr-2" />
