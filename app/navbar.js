@@ -41,7 +41,7 @@ const Navbar = () => {
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                 <FaLeaf className="h-6 w-6 text-emerald-700" />
               </div>
-              <span className="text-xl font-bold text-white">PanchaKarma</span>
+              <span className="text-xl font-bold text-white">AyurSutra</span>
             </Link>
           </div>
 
