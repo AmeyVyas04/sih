@@ -95,7 +95,7 @@ const ContactUs = () => {
               <FaArrowLeft className="mr-2" /> Back to Dashboard
             </Link>
             <h1 className="text-3xl md:text-4xl font-bold">Contact Us</h1>
-            <p className="text-amber-100 mt-2">We're here to help you</p>
+            <p className="text-amber-100 mt-2">We are here to help you</p>
           </div>
         </div>
 
