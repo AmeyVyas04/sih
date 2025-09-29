@@ -390,8 +390,8 @@ const FeedbackPage = () => {
                       Dosha Balance Awareness
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      "Do you feel your dosha imbalance was addressed after
-                      therapy?"
+                      Do you feel your dosha imbalance was addressed after
+                      therapy?
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                       {["Yes", "Not Sure", "No"].map((option) => (
@@ -425,7 +425,7 @@ const FeedbackPage = () => {
                       Post-Therapy Effects
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      "Did you notice any positive changes after the therapy?"
+                      Did you notice any positive changes after the therapy?
                     </p>
                     <div className="grid text-black grid-cols-1 md:grid-cols-2 gap-3">
                       {postTherapyEffectsOptions.map((option) => (
@@ -449,11 +449,11 @@ const FeedbackPage = () => {
 
                   <div className="mb-6 p-4 text-black bg-amber-50 rounded-lg border border-amber-200">
                     <h3 className="text-lg font-semibold text-green-700 mb-3">
-                      Therapist's Guidance
+                      Therapists Guidance
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      "Did the therapist explain the Panchakarma process
-                      clearly?"
+                      Did the therapist explain the Panchakarma process
+                      clearly?
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                       {["Yes", "Somewhat", "No"].map((option) => (
@@ -487,7 +487,7 @@ const FeedbackPage = () => {
                       Oil & Herbal Application
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      "Was the herbal oil application suitable for your skin?"
+                      Was the herbal oil application suitable for your skin?
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                       {["Perfectly suited", "Mild irritation", "Too oily"].map(
@@ -664,7 +664,7 @@ const FeedbackPage = () => {
                         {feedback.comments && (
                           <div>
                             <span className="font-medium">Comments:</span>{" "}
-                            <p className="mt-1 italic">"{feedback.comments}"</p>
+                            <p className="mt-1 italic">{feedback.comments}</p>
                           </div>
                         )}
                       </div>

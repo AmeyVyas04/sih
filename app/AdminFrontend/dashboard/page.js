@@ -288,7 +288,7 @@ export default function AdminDashboard() {
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Dashboard Overview
           </h1>
-          <p className="text-gray-600 mt-2">Welcome back! Here's what's happening with your clinic.</p>
+          <p className="text-gray-600 mt-2">Welcome back! Heres whats happening with your clinic.</p>
         </div>
         
         <div className="flex space-x-4 mt-4 lg:mt-0">

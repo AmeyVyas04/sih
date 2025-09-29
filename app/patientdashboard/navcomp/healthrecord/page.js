@@ -353,7 +353,7 @@ const HealthRecords = () => {
 
                 {/* Recommendations */}
                 <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Doctor's Recommendations</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Doctors Recommendations</h3>
                   <div className="space-y-3">
                     {healthData.recommendations.map((recommendation, index) => (
                       <div key={index} className="flex items-start">

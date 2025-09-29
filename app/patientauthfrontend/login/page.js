@@ -224,7 +224,7 @@ const Login = () => {
           {/* Sign Up Link */}
           <div className="text-center pt-6 mt-6 border-t border-gray-200">
             <p className="text-gray-600 text-sm">
-              Don't have an account?{' '}
+              Dont have an account?{' '}
               <a href="/patientauthfrontend/signup" className="text-green-600 hover:text-green-700 font-semibold transition-colors">
                 Create Account
               </a>

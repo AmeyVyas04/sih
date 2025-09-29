@@ -231,7 +231,7 @@ const handleSubmit = async (e) => {
           {/* Sign Up Link */}
           <div className="text-center pt-6 mt-6 border-t border-gray-200">
             <p className="text-gray-600 text-sm">
-              Don't have a professional account?{' '}
+              Dont have a professional account?{' '}
               <a href="/doctorauthfrontend/signup" className="text-blue-600 hover:text-blue-700 font-semibold transition-colors">
                 Apply for Access
               </a>

@@ -169,7 +169,7 @@ const DoctorSchedule = () => {
             <div>
               <h1 className="text-3xl font-bold text-gray-800 flex items-center">
                 <MdSchedule className="mr-3 text-blue-600" />
-                Today's Schedule
+                Todays Schedule
               </h1>
               <p className="text-gray-600 mt-2 flex items-center">
                 <MdToday className="mr-2" />
@@ -375,7 +375,7 @@ const DoctorSchedule = () => {
             <div className="bg-white rounded-2xl shadow-sm p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
                 <FaCalendarAlt className="mr-2 text-blue-600" />
-                Today's Summary
+                Todays Summary
               </h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">

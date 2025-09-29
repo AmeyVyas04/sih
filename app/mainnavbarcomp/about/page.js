@@ -90,13 +90,13 @@ const AboutUs = () => {
             <div className="bg-amber-50 p-8 rounded-2xl border border-amber-200">
               <h2 className="text-3xl font-serif font-bold text-green-800 mb-6">Our Vision</h2>
               <p className="text-lg text-gray-600">
-                To become the world's most trusted platform for authentic Ayurvedic care, 
+                To become the worlds most trusted platform for authentic Ayurvedic care, 
                 transforming lives through personalized Panchakarma therapies and digital wellness solutions.
               </p>
               <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
                 <FaHeart className="h-8 w-8 text-green-600 mb-3" />
                 <p className="text-green-800 font-semibold">
-                  "Healing the world, one person at a time, through authentic Ayurveda"
+                  Healing the world, one person at a time, through authentic Ayurveda
                 </p>
               </div>
             </div>

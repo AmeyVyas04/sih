@@ -167,7 +167,7 @@ const getFallbackResponse = (userMessage) => {
                   Practice
                 </h1>
                 <p className="text-xl text-emerald-100 leading-relaxed">
-                  The world's most advanced Panchakarma management platform. Seamlessly blend ancient wisdom with cutting-edge technology for unparalleled patient outcomes.
+                  The worlds most advanced Panchakarma management platform. Seamlessly blend ancient wisdom with cutting-edge technology for unparalleled patient outcomes.
                 </p>
               </div>
               
@@ -373,7 +373,7 @@ const getFallbackResponse = (userMessage) => {
                   </div>
                   <div className="text-center lg:text-left">
                     <div className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 leading-relaxed">
-                      "{testimonials[currentTestimonial].text}"
+                      {testimonials[currentTestimonial].text}
                     </div>
                     <div className="flex flex-col lg:flex-row lg:items-center gap-2">
                       <div className="font-bold text-emerald-700 text-lg">

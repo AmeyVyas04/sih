@@ -255,7 +255,7 @@ const DoctorDashboard = () => {
               <FaRegCalendarCheck className="text-amber-600 text-xl" />
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-700">Today's Appointments</h3>
+              <h3 className="text-lg font-semibold text-gray-700">Todays Appointments</h3>
               <p className="text-2xl font-bold text-amber-700">3</p>
             </div>
           </div>
@@ -522,7 +522,7 @@ const DoctorDashboard = () => {
                         <p className="text-sm text-amber-600">{testimonial.specialization}</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic mb-4">"{testimonial.content}"</p>
+                    <p className="text-gray-700 italic mb-4">{testimonial.content}</p>
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
                         <FaStar 

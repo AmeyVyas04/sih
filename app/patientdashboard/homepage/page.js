@@ -243,14 +243,14 @@ const PatientDashboard = () => {
                 <div className="md:w-1/2">
                   <div className="bg-amber-50 rounded-lg p-5 mb-4 border border-amber-200">
                     <p className="text-gray-700 mb-4">
-                      Panchakarma is Ayurveda's premier detoxification and rejuvenation program. 
-                      Literally meaning "five actions," it's a comprehensive process that helps 
+                      Panchakarma is Ayurvedas premier detoxification and rejuvenation program. 
+                      Literally meaning five actions, its a comprehensive process that helps 
                       remove deep-rooted stress and illness-causing toxins from your body while 
                       balancing your doshas (biological energies).
                     </p>
                     <p className="text-gray-700 mb-4">
-                      This ancient healing method goes beyond simple detox - it's a transformative 
-                      journey that restores your body's innate healing ability and brings you to 
+                      This ancient healing method goes beyond simple detox - its a transformative 
+                      journey that restores your bodys innate healing ability and brings you to 
                       a state of optimal health and wellness.
                     </p>
                     <p className="text-gray-700">
@@ -265,11 +265,11 @@ const PatientDashboard = () => {
                     <ul className="text-gray-700 space-y-2">
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">•</span>
-                        Eliminates toxins that modern medicine often can't address
+                        Eliminates toxins that modern medicine often cant address
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">•</span>
-                        Restores your body's natural healing intelligence
+                        Restores your bodys natural healing intelligence
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">•</span>
@@ -297,7 +297,7 @@ const PatientDashboard = () => {
                     </h3>
                     <p className="mb-4">
                       Every healing journey begins with a single step. By choosing Panchakarma, 
-                      you're taking that important step toward lasting health and vitality.
+                      youre taking that important step toward lasting health and vitality.
                     </p>
                     <Link 
                       href="/patient/schedule"
@@ -446,7 +446,7 @@ const PatientDashboard = () => {
                         <p className="text-sm text-amber-600">{testimonial.therapy}</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic mb-4">"{testimonial.content}"</p>
+                    <p className="text-gray-700 italic mb-4">{testimonial.content}</p>
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
                         <FaStar 
